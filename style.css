@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans:wght@300&display=swap');
+
+#logo {
+    width: 268px;
+    height: 68px;
+    margin-top: -5px;
+}
+
+li {
+    list-style: none;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    margin-left: -110px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #ABABAB;
+    width: 180px;
+    height: 220px;
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mainmenu {
+    display: flex;
+    margin-left: -50px;
+}
+.MainMenuItem { 
+    margin-left: 20px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #ABABAB;
+}
+
+.MainMenuItem:hover {
+    cursor: pointer;
+    color: rgb(0, 179, 155);
+}
+#logo {
+    cursor: pointer;
+}
+
+.MainMenuItem:hover .submenu{
+    display: block;
+}
+
+.subMenuItem {
+    /* width: 220px;
+    height: 42px; */
+    padding: 12px 16px 12px 16px;
+    margin-left: -40px;
+}
+.subMenuItem:hover{
+    cursor: pointer;
+    color: rgb(0, 179, 155);
+}
+.subMenuItem:hover {
+    background-color: #F6F8F8;
+}
+
+.title {
+    text-align: center;
+    margin-top: 33px;
+}
+.title h1 {
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 44.2px;
+    color:rgb(0, 179, 155);
+}
+
+.para {
+    display: flex;
+    width: 1015px;
+    margin-left: 229px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(116, 116, 116);
+    margin-top: 13px;
+}
+
+p {
+    width: 477.5px;
+}
+.p2 {
+    margin-left: 20px;
+}
